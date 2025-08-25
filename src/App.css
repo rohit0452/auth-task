@@ -1,0 +1,46 @@
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bg-green {
+  background-color: #016B5E;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  right: 3%;
+}
+
+.input-line {
+  border: none !important;
+  border-bottom: 2px solid whitesmoke !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.input-line:focus {
+  border-color: #145c32 !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.text-danger {
+  margin-top: 4px;
+}
+
+.w-sm-50 {
+    width: 25% !important;
+    border: 2px solid red;
+  }
+
+@media (max-width: 576px) {
+  .w-sm-50 {
+    width: 100% !important;
+  }
+}
